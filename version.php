@@ -16,8 +16,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2025051101;
-$plugin->requires  = 2024100100;
+$plugin->version   = 2025051400;
+$plugin->requires  = 2022112822;
+$plugin->supported  = [401, 502];
 $plugin->component = 'tool_aischema';
 $plugin->maturity  = MATURITY_STABLE;
 $plugin->release   = '1.0';
