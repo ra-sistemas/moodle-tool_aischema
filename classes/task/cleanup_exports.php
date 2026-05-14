@@ -18,6 +18,13 @@ namespace tool_aischema\task;
 
 defined('MOODLE_INTERNAL') || die();
 
+/**
+ * Create model form.
+ *
+ * @package    tool_aischema
+ * @copyright  2026 RA SISTEMAS - Davison Ramos <ramosdealmeidasistemas@gmail.com>
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
 class cleanup_exports extends \core\task\scheduled_task {
 
     public function get_name(): string {

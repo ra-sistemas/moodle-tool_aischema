@@ -21,6 +21,13 @@ defined('MOODLE_INTERNAL') || die();
 require_once($CFG->libdir . '/ddllib.php');
 require_once($CFG->libdir . '/adminlib.php');
 
+/**
+ * Create model form.
+ *
+ * @package    tool_aischema
+ * @copyright  2026 RA SISTEMAS - Davison Ramos <ramosdealmeidasistemas@gmail.com>
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
 class schema_extractor {
 
     protected array $schema = [];

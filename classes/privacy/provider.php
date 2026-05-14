@@ -18,6 +18,13 @@ namespace tool_aischema\privacy;
 
 defined('MOODLE_INTERNAL') || die();
 
+/**
+ * Create model form.
+ *
+ * @package    tool_aischema
+ * @copyright  2026 RA SISTEMAS - Davison Ramos <ramosdealmeidasistemas@gmail.com>
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
 class provider implements \core_privacy\local\metadata\null_provider {
     public static function get_reason(): string {
         return 'privacy:metadata';

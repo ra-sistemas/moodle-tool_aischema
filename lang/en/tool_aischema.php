@@ -16,6 +16,14 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+/**
+ * English strings.
+ *
+ * @package    tool_aischema
+ * @copyright  2026 RA SISTEMAS - Davison Ramos <ramosdealmeidasistemas@gmail.com>
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
 $string['pluginname'] = 'AI Schema Export';
 $string['privacy:metadata'] = 'The AI Schema Export plugin does not store any personal data.';
 
